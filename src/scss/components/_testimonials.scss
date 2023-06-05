@@ -1,0 +1,42 @@
+.section_testimonials {
+  padding: 100px 0;
+  transform: skewY(-5deg);
+  .container {
+    transform: skewY(5deg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    .section-title {
+      h2 {
+        color: var(--dark-color);
+      }
+    }
+    div:nth-child(2) {
+      font-family: "GreatVibes";
+      font-size: 48px;
+      @include media('<ml') {
+        font-size: 36px;
+      }
+    }
+    div:nth-child(3) {
+      font-size: 18px;
+    }
+    .btn {
+      width: 250px;
+      height: 50px;
+      background-color: var(--text-color);
+      color: var(--light-color);
+      -webkit-box-shadow: -5px -5px 5px -5px rgba(25, 25, 25, 0.6);
+      -moz-box-shadow: -5px -5px 5px -5px rgba(25, 25, 25, 0.6);
+      box-shadow: -5px -5px 5px -5px rgba(25, 25, 25, 0.6);
+      margin-left: auto;
+      font-size: 18px;
+      text-transform: uppercase;
+      transition: background-color .2s ease-out;
+      &:hover{
+        background-color: #191919;
+      }
+    }
+  }
+}

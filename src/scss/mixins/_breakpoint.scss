@@ -1,0 +1,16 @@
+/* stylelint-disable */
+
+$breakpoints: (
+  'es': 360px,
+  'sm': 567px,
+  'md': 768px,
+  'ml': 820px,
+  'lg': 992px,
+  'll': 1024px,
+  'xl': 1200px,
+  'xxl': 1260px,
+  'dk': 1920px,
+  'd2k': 2560px,
+);
+$im-no-media-breakpoint: 'xxl';
+@import '../../node_modules/include-media/dist/_include-media.scss';

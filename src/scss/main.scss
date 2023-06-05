@@ -1,0 +1,31 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/components";
+
+@import "./components/header";
+@import "./components/slider_hero";
+@import "./components/welcome";
+@import "./components/testimonials";
+@import "./components/gallery";
+@import "./components/blog";
+@import "./components/contact_us";
+@import "./components/footer";
+
+body{
+  background-color: var(--light-color);
+  font-family: 'Montserrat';
+}
+a{
+  color: inherit;
+}
+li{
+  list-style: none;
+}
+p,h2,h3{
+  margin: 0;
+}
